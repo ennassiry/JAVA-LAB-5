@@ -1,5 +1,5 @@
 
-package com.example.tp;
+package com.example.ex1;
 
 // CompteCourant hérite de la classe Compte.
 // Il récupère ses attributs et ses méthodes accessibles,
