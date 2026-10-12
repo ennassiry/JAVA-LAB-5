@@ -7,7 +7,7 @@ public class Main_exercice2 {
     // Point de départ de l'exécution du programme Java.
     public static void main(String[] args) {
 
-        // ==================== 1. CRÉATION DU ZOO ====================
+        // =================== 1. CRÉATION DU ZOO ====================
 
         // Crée un objet Zoo.
         // Le tableau interne peut initialement contenir 5 animaux.
