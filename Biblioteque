@@ -1,0 +1,43 @@
+package com.example.ex4;
+
+public class Biblioteque {
+private int capacite;
+private static int nb = 0;
+private Document[] documents;
+public Biblioteque(int capacite) {
+	
+	this.capacite = capacite;
+	 this.documents = new Document[capacite];
+
+}
+
+public Document[] getDocuments() {
+	return documents;
+}
+
+
+public boolean ajouter(Document D) {
+    if (nb == capacite) return false;
+//        Document[] tmp = new Document[documents.length * 2];
+//        System.arraycopy(documents, 0, tmp, 0, documents.length);
+//        document = tmp;
+//    }
+    documents[nb++] = D;
+    return true;
+}
+
+public void afficherTous() {
+    System.out.println("Tous les documents");
+    for (int i = 0; i < nb; i++) {
+        System.out.println("  • " + documents[i]);
+    }
+}
+
+boolean supprimer(Document doc) {
+	if (doc != null) {
+		doc = null; 
+		return true;
+	}
+	return false;
+}
+}
