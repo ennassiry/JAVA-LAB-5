@@ -1,7 +1,7 @@
 
-package com.example.tp;
+package com.example.ex3;
 
-public class Main {
+public class Main_exercice3 {
 
     public static void main(String[] args) {
 
