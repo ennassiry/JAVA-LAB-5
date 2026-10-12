@@ -1,8 +1,5 @@
 package com.example.ex1;
 
-
-package com.example.tp;
-
 public class Compte {
 
     // Attribut statique partagé par tous les objets de la classe Compte.
