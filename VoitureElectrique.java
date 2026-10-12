@@ -1,4 +1,4 @@
-package com.example.tp;
+package com.example.ex3;
 
 public class VoitureElectrique extends Motorise {
     public VoitureElectrique(String modele, Moteur moteur, double batterieInitial) {
