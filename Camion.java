@@ -1,4 +1,4 @@
-package com.example.tp;
+package com.example.ex3;
 
 public class Camion extends Motorise {
     private double capaciteCharge; // tonnes
